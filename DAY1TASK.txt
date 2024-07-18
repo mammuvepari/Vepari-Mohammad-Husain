@@ -1,0 +1,112 @@
+________________
+
+
+1).  Try to find out whether Main() function is predefined or user defined ? 
+
+-> Main() Function is Predefined Function but The body or logic inside the main method is user-defined. 
+
+
+________________
+
+
+
+2).  if else concept using grade program. 
+
+
+import java.util.*; 
+public class day1 { 
+    public static void main(String[] args) { 
+        Scanner scanner=new Scanner(System.in); 
+        System.out.println("Enter Valide Marks"); 
+        int marks=scanner.nextInt(); 
+        char grade; 
+        if (marks >= 90) { 
+            grade = 'A'; 
+        } 
+        else if (marks >= 80) { 
+            grade = 'B'; 
+        } 
+        else if (marks >= 70) { 
+            grade = 'C'; 
+        } 
+        else if (marks >= 60) { 
+            grade = 'D'; 
+        } 
+        else { 
+            grade = 'F'; 
+        } 
+        System.out.println("The grade for obtain Marks " + marks + " is: " + grade); 
+    } 
+} 
+
+
+________________
+
+
+
+3).  Loop Statement 
+
+
+
+ (a) For loop: 
+
+
+   public class ForLoop{ 
+    public static void main(String[] args) { 
+        for (int j = 1; j <= 10; j++) { 
+            System.out.println(j); 
+        } 
+    } 
+} 
+
+
+ (b) While loop: 
+
+   public class WhileLoop { 
+    public static void main(String[] args) { 
+        int k = 1; 
+        while (k <= 10) { 
+            System.out.println(k); 
+            K++; 
+        } 
+    } 
+} 
+
+
+  (c) Do-While loop: 
+
+   public class DoWhileLoop { 
+    public static void main(String[] args) { 
+        int i = 1; 
+        do { 
+            System.out.println(i); 
+            i++; 
+        } while (i <= 10); 
+    } 
+} 
+
+
+
+________________
+
+
+
+4).  Divide the two number(TypeCast) 
+
+
+import java.util.*; 
+public class Dividenumber { 
+    public static void main(String[] args) { 
+         Scanner scanner=new Scanner(System.in); 
+         System.out.println("Enter the Number"); 
+         int A=scanner.nextInt(); 
+         System.out.println("Enter the Marks"); 
+         int B=scanner.nextInt(); 
+         float C; 
+         C=(float)A/B; 
+         System.out.println(C); 
+    } 
+} 
+
+
+________________
